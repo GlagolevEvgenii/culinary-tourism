@@ -110,43 +110,11 @@ img {
     fill: currentColor
 }
 
-.visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden
-}
-
 .section {
     position: relative;
     padding: 60px 0;
 }
 
-
 .hidden {
     display: none
-}
-.text--underline {
-    display: inline-block;
-    font-weight: 400;
-    text-decoration: underline;
-    color: #70cbf4;
-    -webkit-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out
-}
-
-.text--underline:hover,.text--underline:focus,.text--underline:active {
-    color: #061e46;
-    -webkit-transform: scale(1.01);
-    transform: scale(1.01)
-}
-.image--padding-top {
-    padding-top: 30px
-}
-.rounded {
-    border-radius: 10px
 }

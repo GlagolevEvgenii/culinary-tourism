@@ -101,9 +101,20 @@
     .column-wrapper{
         grid-template-columns: repeat(3, 1fr);
     }
+    .section-2{
+        padding-top: 240px!important;
+        padding-bottom: 160px!important;
+    }
+    .image-move-1{
+        margin-bottom: -240px;
+        position: relative;
+        z-index: 1;
+    }
+    .section-3{
+        margin-top: -240px;
+    }
     .section-bottom{
-        margin-bottom: 120px;
-        padding-top: 100px;
+        padding-top: 240px!important;
     }
 }
 @media screen and (min-width: 1000px) {
@@ -123,6 +134,9 @@
         padding: 30px;
         top: 50%;
         transform: translateY(-50%);
+    }
+    #cutoutBottomRight{
+        display: block;
     }
 
 }
@@ -149,11 +163,8 @@
     .nav-list--link {
         line-height: 19px;
     }
-    .swiper {
-        height:753px;
-    }
-    .swiper-button-next, .swiper-button-prev {
-        display: flex!important;
+    .section-footer{
+        padding: 200px 0 50px;
     }
 }
 
